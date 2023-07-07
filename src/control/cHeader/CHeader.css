@@ -1,0 +1,115 @@
+
+.najm__cHeader-total{
+    display: flex;
+    padding: 0 7%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    gap: 10px;
+}
+.najm__cHeader-total div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    flex-direction: column;
+    width: 317px;
+    height: 135px;
+    padding: 22px 67px;
+}
+.najm__cHeader-total div p{
+    color: #FFF;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.najm__cHeader-total div p:nth-last-child(){
+    color: #FFF;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.najm__cHeader-total div:nth-child(1){
+    background: #43A7D8;
+}
+.najm__cHeader-total div:nth-child(2){
+    background:#FF6A6F;
+}
+.najm__cHeader-total div:nth-child(3){
+    background: #12AA77;
+}
+.najm__cHeader-total div:nth-child(4){
+    background: #FDBE7B;
+}
+.najm__cHeader-select{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 60px 0;
+    padding: 0 7%;
+    
+}
+.najm__cHeader-select div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap:12px ;
+   
+}
+.najm__cHeader-select div:first-child {
+   
+  margin-left: 20px;
+}
+
+
+.najm__cHeader-select div h3{
+    color: rgba(0, 0, 0, 0.87);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.najm__cHeader-select div span{
+    color: rgba(0, 0, 0, 0.47);
+text-align: right;
+font-family: Tajawal;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 24px;
+}
+.najm__cHeader-select div select{
+width: 239px;
+height: 52px;
+border-radius: 4px;
+background: #E7FFF3;
+
+}
+@media screen and (max-width:1300px) {
+    .najm__cHeader-total{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .najm__cHeader-select{
+        flex-direction: column;
+        gap: 25px;
+       
+    }
+    
+}
+

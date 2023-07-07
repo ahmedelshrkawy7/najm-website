@@ -1,0 +1,56 @@
+.najm__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 116px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 8px 0px rgba(181, 181, 181, 0.25);
+    padding: 0 7%;
+    position: relative;
+}
+.najm__nav-btn {
+   
+    display: flex;
+  
+   
+    align-items: flex-end;
+    gap: 8px;
+   
+   
+}
+.najm__nav-btn button{
+    border-radius: 8px;
+    border: 1px solid var(--grey-grey-3, #E1E3E6);
+    background: var(--color-white);
+    box-shadow: 0px 4px 2px -2px rgba(27, 46, 94, 0.02);
+    display: flex;
+    width: 62px;
+    height: 48px;
+    padding: 12px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
+}
+
+
+.najm__nav-logo {
+  
+   height: 100%;
+}
+.najm__nav-logo img{
+    width: 80px;
+    height: 157px;
+}
+@media screen and (min-width:1150px) {
+
+    .najm__nav-logo{
+   position: absolute;
+   right: 96px;
+}
+.najm__nav-btn {
+    position: absolute;
+    left: 116px;
+}
+}

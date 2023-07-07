@@ -1,0 +1,43 @@
+.najm__header{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.najm__header h2{
+     color: rgba(0, 0, 0, 0.87);
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.najm__jeader-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 21px 0;
+}
+.najm__jeader-btn button{
+    display: flex;
+    width: 27%;
+    height: 54px;
+    padding: 14px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #C0C0C0;
+    border-radius: 4px;
+    
+    color:black;
+    text-align: right;
+    font-family: Tajawal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

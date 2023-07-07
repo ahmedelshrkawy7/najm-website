@@ -1,0 +1,52 @@
+.najm__table{
+   
+    overflow-x:auto;
+    
+    padding: 0 7%;
+   
+
+}
+
+
+table{
+    width: 100%;
+    min-width: 1050px;
+   
+}
+th{
+    background: #33835C;
+    height: 70px;
+    color: #fff;
+   
+}
+td,th{
+    text-align: center;
+   
+}
+td{
+    height: 80px;
+}
+tr td{
+    
+   
+    font-family: Tajawal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+tr td:nth-child(2){
+    color: #FFAB5F;
+font-family: Tajawal;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+tr td:nth-child(7){
+    font-family: Tajawal;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
